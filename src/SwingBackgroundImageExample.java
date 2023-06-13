@@ -18,7 +18,7 @@ public class SwingBackgroundImageExample {
                 @Override
                 protected void paintComponent(Graphics g) {
                     super.paintComponent(g);
-                    Image image = new ImageIcon("C:\\Users\\ASUS\\Downloads\\animation-anime-art-fantasy-wallpaper-preview.jpg").getImage();
+                    Image image = new ImageIcon("wrte path here").getImage();
                     g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
                 }
             };
