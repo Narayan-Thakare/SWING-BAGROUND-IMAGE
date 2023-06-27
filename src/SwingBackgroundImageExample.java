@@ -22,9 +22,10 @@ public class SwingBackgroundImageExample {
                     g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
                 }
             };
+            panel.setLayout(null);
 
             // Set the layout manager for the panel
-            panel.setLayout(new BorderLayout());
+     //       panel.setLayout(new BorderLayout());
 
             // Add other components to the panel
             // ...
